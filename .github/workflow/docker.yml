@@ -1,0 +1,7 @@
+jobs:
+  docker-job:
+    runs-on: ubuntu-latest
+    container: python:3.10
+    steps:
+      - name: Print Python Version
+        run: python --version
